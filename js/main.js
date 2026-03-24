@@ -15,6 +15,8 @@ import { submittingFormFn } from "./components/submittingFormFn.js";
 import { tippyActiveFn } from "./components/tippyActiveFn.js";
 import { pagination } from "./components/pagination.js";
 
+
+
 // Запуск
 window.addEventListener("DOMContentLoaded", async () => {
   burgerMenuFn(); // Открытие/закрытие бургерного меню каталога сайта.
@@ -45,4 +47,8 @@ window.addEventListener("DOMContentLoaded", async () => {
   submittingFormFn(); // Отправка формы на сервер
 
   tippyActiveFn(); // Всплывающие подсказки с использованием библиотеки Tippy.js
+
+
+
+
 });
